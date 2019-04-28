@@ -1,0 +1,4 @@
+welcome: "Welcome to the Loan Calculator!"
+invalid_number: "Invalid input. Please enter a positive number."
+continue: "Would you like to calculate another mortgage?"
+farewell: "Thank you for using the Loan Calculator. Goodbye!"

@@ -1,0 +1,58 @@
+1. a method that returns the sum of two integers
+
+Casual
+- set the two method parameters to their passed in argument values
+- add the two method parameter and assign the result
+- set the result variable to the result
+- return result
+
+Formal
+SET the first method parameter to the value of its associated argument's value
+SET the second method parameter to the value of its associated argument's value
+SET the result variable to the sum of the first and second parameters
+RETURN the result
+
+2. a method that takes an array of strings, and returns a string that is all those strings concatenated together
+
+Casual
+- set the method's parameter to reference the passed in array
+- create an empty string called string
+- iterate over the array of strings, and append it and a blank character to string
+- remove the last blank character from string
+- return string
+
+Formal
+SET the method's parameter (strings) to reference the passed in array
+SET string = ''
+SET iterator = 0
+WHILE iterator < length of strings
+  SET string = string + value within strings at space iterator + ' '
+  iterator = iterator + 1
+
+SET string = string without the last character
+RETURN string
+
+3. a method that takes an array of integers, and returns a new array with every other element
+
+Casual
+- create an empty array, new_array
+- create an iterator and set it to 0
+- iterate over the array of integers
+  if the iterator is odd, skip to the next value of the iterator
+  if the iterator is even, append the value of array at the index corresponding to the iterator
+  increment the iterator
+- return new_array
+
+Formal
+SET new_array = ''
+SET iterator = 0
+WHILE iterator < length of integers
+  IF iterator is odd
+    skip to increment iterator
+  ELSE
+    append value within integers at space iterator
+  END
+  iterator = iterator + 1
+
+RETURN new_array
+
